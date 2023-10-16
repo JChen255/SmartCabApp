@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A0E2AA72ACF428000536119 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E2AA62ACF428000536119 /* LocationManager.swift */; };
+		6A0E2AAF2ACF50D100536119 /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E2AAE2ACF50D100536119 /* LocationSearchActivationView.swift */; };
+		6A0E2AB12ACF525B00536119 /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E2AB02ACF525B00536119 /* MapViewActionButton.swift */; };
+		6A0E2AB32ACF589400536119 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E2AB22ACF589400536119 /* LocationSearchView.swift */; };
+		6A0E2AB52ACF5B9500536119 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E2AB42ACF5B9500536119 /* LocationSearchResultCell.swift */; };
+		6A0E2AB72AD05C1400536119 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E2AB62AD05C1400536119 /* LocationSearchViewModel.swift */; };
+		6A6F47922ACE5227002BD10D /* SmartCabAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F47912ACE5227002BD10D /* SmartCabAppApp.swift */; };
+		6A6F47962ACE5228002BD10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F47952ACE5228002BD10D /* Assets.xcassets */; };
+		6A6F47992ACE5228002BD10D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F47982ACE5228002BD10D /* Preview Assets.xcassets */; };
+		6A6F47A92ACE52D4002BD10D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F47A82ACE52D4002BD10D /* HomeView.swift */; };
+		6A6F47AB2ACE5509002BD10D /* CabMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F47AA2ACE5509002BD10D /* CabMapViewRepresentable.swift */; };
+		6A9AD72F2AD0987400668164 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AD72E2AD0987400668164 /* MapViewState.swift */; };
+		6A9AD7322AD0D1F300668164 /* RideRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AD7312AD0D1F300668164 /* RideRequestView.swift */; };
+		6A9AD7342AD0D5B900668164 /* CarCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9AD7332AD0D5B900668164 /* CarCard.swift */; };
+		6AD2B7C12ADD89BB00C59BDC /* RideType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2B7C02ADD89BB00C59BDC /* RideType.swift */; };
+		6AD2B7C32ADD9E7500C59BDC /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2B7C22ADD9E7500C59BDC /* Double.swift */; };
+		6AD2B7C52ADDA51D00C59BDC /* CabLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2B7C42ADDA51D00C59BDC /* CabLocation.swift */; };
+		6AD2B7C72ADDB61C00C59BDC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2B7C62ADDB61C00C59BDC /* Color.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6A0E2AA62ACF428000536119 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6A0E2AA82ACF434F00536119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6A0E2AAE2ACF50D100536119 /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
+		6A0E2AB02ACF525B00536119 /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewActionButton.swift; sourceTree = "<group>"; };
+		6A0E2AB22ACF589400536119 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		6A0E2AB42ACF5B9500536119 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
+		6A0E2AB62AD05C1400536119 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		6A6F478E2ACE5227002BD10D /* SmartCabApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCabApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6F47912ACE5227002BD10D /* SmartCabAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCabAppApp.swift; sourceTree = "<group>"; };
+		6A6F47952ACE5228002BD10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A6F47982ACE5228002BD10D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A6F47A82ACE52D4002BD10D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6A6F47AA2ACE5509002BD10D /* CabMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabMapViewRepresentable.swift; sourceTree = "<group>"; };
+		6A9AD72E2AD0987400668164 /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
+		6A9AD7312AD0D1F300668164 /* RideRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideRequestView.swift; sourceTree = "<group>"; };
+		6A9AD7332AD0D5B900668164 /* CarCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCard.swift; sourceTree = "<group>"; };
+		6AD2B7C02ADD89BB00C59BDC /* RideType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RideType.swift; sourceTree = "<group>"; };
+		6AD2B7C22ADD9E7500C59BDC /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		6AD2B7C42ADDA51D00C59BDC /* CabLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CabLocation.swift; sourceTree = "<group>"; };
+		6AD2B7C62ADDB61C00C59BDC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A6F478B2ACE5227002BD10D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A0E2AA92ACF4F6E00536119 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6A6F47A42ACE5269002BD10D /* ViewModels */,
+				6A6F47A52ACE5272002BD10D /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6A0E2AAA2ACF4F7900536119 /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E2AAD2ACF501200536119 /* ViewModel */,
+				6A0E2AAB2ACF4FFE00536119 /* Views */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		6A0E2AAB2ACF4FFE00536119 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E2AAE2ACF50D100536119 /* LocationSearchActivationView.swift */,
+				6A0E2AB22ACF589400536119 /* LocationSearchView.swift */,
+				6A0E2AB42ACF5B9500536119 /* LocationSearchResultCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A0E2AAD2ACF501200536119 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E2AB62AD05C1400536119 /* LocationSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6A6F47852ACE5227002BD10D = {
+			isa = PBXGroup;
+			children = (
+				6A6F47902ACE5227002BD10D /* SmartCabApp */,
+				6A6F478F2ACE5227002BD10D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A6F478F2ACE5227002BD10D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A6F478E2ACE5227002BD10D /* SmartCabApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A6F47902ACE5227002BD10D /* SmartCabApp */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E2AA82ACF434F00536119 /* Info.plist */,
+				6A6F479F2ACE5233002BD10D /* App */,
+				6A6F47A02ACE5239002BD10D /* Core */,
+				6A6F47A22ACE5241002BD10D /* Extensions */,
+				6A6F47A32ACE5246002BD10D /* Managers */,
+				6A6F47A12ACE523D002BD10D /* Models */,
+				6A6F47952ACE5228002BD10D /* Assets.xcassets */,
+				6A6F47972ACE5228002BD10D /* Preview Content */,
+			);
+			path = SmartCabApp;
+			sourceTree = "<group>";
+		};
+		6A6F47972ACE5228002BD10D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6A6F47982ACE5228002BD10D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6A6F479F2ACE5233002BD10D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6A6F47912ACE5227002BD10D /* SmartCabAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6A6F47A02ACE5239002BD10D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6A9AD7302AD0D1E200668164 /* Trips */,
+				6A0E2AAA2ACF4F7900536119 /* LocationSearch */,
+				6A0E2AA92ACF4F6E00536119 /* Home */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		6A6F47A12ACE523D002BD10D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A9AD72E2AD0987400668164 /* MapViewState.swift */,
+				6AD2B7C02ADD89BB00C59BDC /* RideType.swift */,
+				6AD2B7C42ADDA51D00C59BDC /* CabLocation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6A6F47A22ACE5241002BD10D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6AD2B7C22ADD9E7500C59BDC /* Double.swift */,
+				6AD2B7C62ADDB61C00C59BDC /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6A6F47A32ACE5246002BD10D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E2AA62ACF428000536119 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		6A6F47A42ACE5269002BD10D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6A6F47A52ACE5272002BD10D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A6F47A82ACE52D4002BD10D /* HomeView.swift */,
+				6A6F47AA2ACE5509002BD10D /* CabMapViewRepresentable.swift */,
+				6A0E2AB02ACF525B00536119 /* MapViewActionButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A9AD7302AD0D1E200668164 /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				6A9AD7312AD0D1F300668164 /* RideRequestView.swift */,
+				6A9AD7332AD0D5B900668164 /* CarCard.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A6F478D2ACE5227002BD10D /* SmartCabApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A6F479C2ACE5228002BD10D /* Build configuration list for PBXNativeTarget "SmartCabApp" */;
+			buildPhases = (
+				6A6F478A2ACE5227002BD10D /* Sources */,
+				6A6F478B2ACE5227002BD10D /* Frameworks */,
+				6A6F478C2ACE5227002BD10D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCabApp;
+			productName = SmartCabApp;
+			productReference = 6A6F478E2ACE5227002BD10D /* SmartCabApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A6F47862ACE5227002BD10D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					6A6F478D2ACE5227002BD10D = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6A6F47892ACE5227002BD10D /* Build configuration list for PBXProject "SmartCabApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A6F47852ACE5227002BD10D;
+			productRefGroup = 6A6F478F2ACE5227002BD10D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A6F478D2ACE5227002BD10D /* SmartCabApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A6F478C2ACE5227002BD10D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6F47992ACE5228002BD10D /* Preview Assets.xcassets in Resources */,
+				6A6F47962ACE5228002BD10D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A6F478A2ACE5227002BD10D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0E2AB72AD05C1400536119 /* LocationSearchViewModel.swift in Sources */,
+				6AD2B7C12ADD89BB00C59BDC /* RideType.swift in Sources */,
+				6AD2B7C52ADDA51D00C59BDC /* CabLocation.swift in Sources */,
+				6A0E2AB32ACF589400536119 /* LocationSearchView.swift in Sources */,
+				6A0E2AA72ACF428000536119 /* LocationManager.swift in Sources */,
+				6AD2B7C72ADDB61C00C59BDC /* Color.swift in Sources */,
+				6A9AD7322AD0D1F300668164 /* RideRequestView.swift in Sources */,
+				6A9AD7342AD0D5B900668164 /* CarCard.swift in Sources */,
+				6AD2B7C32ADD9E7500C59BDC /* Double.swift in Sources */,
+				6A9AD72F2AD0987400668164 /* MapViewState.swift in Sources */,
+				6A6F47922ACE5227002BD10D /* SmartCabAppApp.swift in Sources */,
+				6A6F47AB2ACE5509002BD10D /* CabMapViewRepresentable.swift in Sources */,
+				6A0E2AAF2ACF50D100536119 /* LocationSearchActivationView.swift in Sources */,
+				6A6F47A92ACE52D4002BD10D /* HomeView.swift in Sources */,
+				6A0E2AB12ACF525B00536119 /* MapViewActionButton.swift in Sources */,
+				6A0E2AB52ACF5B9500536119 /* LocationSearchResultCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6A6F479A2ACE5228002BD10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A6F479B2ACE5228002BD10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A6F479D2ACE5228002BD10D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartCabApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartCabApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location to find your nearby drivers";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaja.SmartCabApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A6F479E2ACE5228002BD10D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SmartCabApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SmartCabApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location to find your nearby drivers";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jaja.SmartCabApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A6F47892ACE5227002BD10D /* Build configuration list for PBXProject "SmartCabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6F479A2ACE5228002BD10D /* Debug */,
+				6A6F479B2ACE5228002BD10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A6F479C2ACE5228002BD10D /* Build configuration list for PBXNativeTarget "SmartCabApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A6F479D2ACE5228002BD10D /* Debug */,
+				6A6F479E2ACE5228002BD10D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A6F47862ACE5227002BD10D /* Project object */;
+}
