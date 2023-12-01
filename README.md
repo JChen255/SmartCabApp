@@ -2,6 +2,11 @@
 
 SmartCabApp is a feature-rich native iOS application built with Swift, SwiftUI, Core Location, MapKit, and other cutting-edge technologies. This app is designed to provide users with a seamless and user-friendly experience for all their transportation needs. Whether you want to book a cab, estimate drop-off time, or enjoy the convenience of dark mode, SmartCabApp has got you covered.
 
+## App Preview
+<img src="https://github.com/JChen255/SmartCabApp/assets/98052549/f18b979a-d1f2-48bb-8e1a-5f1f410b4064" width="200" >
+<img src="https://github.com/JChen255/SmartCabApp/assets/98052549/95dceb6f-730f-4319-a4a1-6cf5cece1a23" width="200" >
+<img src="https://github.com/JChen255/SmartCabApp/assets/98052549/a9f670be-9ce3-4a37-baa6-3511ae26f89d" width="200" >
+
 ## Features
 1. Visualize User's Current Location
 SmartCabApp allows users to easily visualize their current location on a map. It leverages the power of Core Location and MapKit to provide accurate and up-to-date location information.
